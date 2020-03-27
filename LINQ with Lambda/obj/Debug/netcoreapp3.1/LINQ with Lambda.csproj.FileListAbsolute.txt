@@ -1,0 +1,13 @@
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\bin\Debug\netcoreapp3.1\LINQ with Lambda.exe
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\bin\Debug\netcoreapp3.1\LINQ with Lambda.deps.json
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\bin\Debug\netcoreapp3.1\LINQ with Lambda.runtimeconfig.json
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\bin\Debug\netcoreapp3.1\LINQ with Lambda.runtimeconfig.dev.json
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\bin\Debug\netcoreapp3.1\LINQ with Lambda.dll
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\bin\Debug\netcoreapp3.1\LINQ with Lambda.pdb
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\obj\Debug\netcoreapp3.1\LINQ with Lambda.csprojAssemblyReference.cache
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\obj\Debug\netcoreapp3.1\LINQ with Lambda.csproj.CoreCompileInputs.cache
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\obj\Debug\netcoreapp3.1\LINQ with Lambda.AssemblyInfoInputs.cache
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\obj\Debug\netcoreapp3.1\LINQ with Lambda.AssemblyInfo.cs
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\obj\Debug\netcoreapp3.1\LINQ with Lambda.dll
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\obj\Debug\netcoreapp3.1\LINQ with Lambda.pdb
+C:\Users\jonat\Documents\C#\Projects\LINQ with Lambda\LINQ with Lambda\obj\Debug\netcoreapp3.1\LINQ with Lambda.genruntimeconfig.cache

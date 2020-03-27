@@ -13,7 +13,7 @@ namespace LINQ_with_Lambda.Entities
 
         public override string ToString()
         {
-            return $"ID: {Id}\nName: {Name}\nPrice: {Price.ToString("F2")}, Category name: {Category.Name}, Category Tier: {Category.Tier}";
+            return $"{Id}, {Name}, {Price.ToString("F2")}, {Category.Name}, {Category.Tier}";
         }
     }
 }
