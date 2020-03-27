@@ -61,6 +61,32 @@ namespace LINQ_with_Lambda
             Console.WriteLine("Single of default test 1: " + r8);
             var r9 = products.Where(p => p.Id == 30).SingleOrDefault();
             Console.WriteLine("Single of default test 2: " + r9);
+
+            var r10 = products.Max(p => p.Price);
+            Console.WriteLine("Max Price: " + r10);
+            var r11 = products.Min(p => p.Price);
+            Console.WriteLine("Min Price: " + r11);
+            var r12 = products.Where(p => p.Category.Id == 1).Sum(p => p.Price);
+            Console.WriteLine("Caterogy 1 Sum prices: " + r12);
+            var r13 = products.Where(p => p.Category.Id == 1).Average(p => p.Price);
+            Console.WriteLine("Category 1 Average prices: " + r13);
+            var r14 = products.Where(p => p.Category.Id == 5).Select(p => p.Price).DefaultIfEmpty(0).Average();
+            Console.WriteLine("Category 5 Average prices: " + r14);
+
+            var r15 = products.Where(p => p.Category.Id == 1).Select(p => p.Price).Aggregate(0.0, (x, y) => x + y);
+            Console.WriteLine("Category 1 Aggregate Sum: " + r15);
+
+            Console.WriteLine();
+            var r16 = products.GroupBy(p => p.Category);
+            foreach (IGrouping<Category, Product> group in r16)
+            {
+                Console.WriteLine("Category: " + group.Key.Name + ":");
+                foreach (Product product in group)
+                {
+                    Console.WriteLine(product);
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
